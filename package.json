@@ -1,0 +1,22 @@
+{
+  "name": "markdown-previewer",
+  "version": "1.0.0",
+  "description": "Markdown previewer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass --watch sass/style.scss:css/style.css"
+  },
+  "keywords": [
+    "markdown",
+    "previewer"
+  ],
+  "author": "Arlen Nightshade",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.80.1"
+  },
+  "devDependencies": {}
+}

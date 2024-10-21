@@ -1,0 +1,19 @@
+@use "../custom" as *;
+
+.converter {
+  width: 100%;
+  display: flex;
+
+  &__editor,
+  &__output {
+    height: 80vh;
+    min-height: 12rem;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid $black;
+
+    @include media-breakpoint-up(md) {
+      min-height: 25rem;
+    }
+  }
+}
