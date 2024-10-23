@@ -12,8 +12,15 @@
     padding: 1rem;
     border: 1px solid $black;
 
+
     @include media-breakpoint-up(md) {
       min-height: 25rem;
+    }
+  }
+
+  &__output {
+    * {
+    max-width: 100%;
     }
   }
 }

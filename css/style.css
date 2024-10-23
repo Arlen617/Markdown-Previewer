@@ -20109,6 +20109,9 @@ textarea.form-control-lg {
     min-height: 25rem;
   }
 }
+.converter__output * {
+  max-width: 100%;
+}
 
 .footer p,
 .footer a {
